@@ -73,6 +73,7 @@ set (ICC_C_SOURCES
 set (ICC_ASM_SOURCES
 	startup/startup_stm32f429x.s
 )
+
 add_executable (${ICC_PROJECT_NAME} ${ICC_C_SOURCES} ${ICC_ASM_SOURCES})
 iar_macros()
 
