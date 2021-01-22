@@ -1,3 +1,0 @@
-/workspaces/webinar-demo-bxarm/429-acad-light-effects/build/CMakeFiles/rebuild_cache.dir
-/workspaces/webinar-demo-bxarm/429-acad-light-effects/build/CMakeFiles/edit_cache.dir
-/workspaces/webinar-demo-bxarm/429-acad-light-effects/build/CMakeFiles/429-acad-light-effects.dir

@@ -1,4 +1,5 @@
 {
-    "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module . -input 429-acad-light-effects/build/compile_commands.json",
-    "cpptest.testConfiguration": "builtin://Flow Analysis Aggressive"
+    "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module . -input build/compile_commands.json",
+    "cpptest.testConfiguration": "builtin://MISRA C 2012",
+    "cmake.configureOnOpen": true
 }
