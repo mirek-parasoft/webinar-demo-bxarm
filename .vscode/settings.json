@@ -1,0 +1,3 @@
+{
+    "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module . -input 429-acad-light-effects/build/compile_commands.json"
+}
