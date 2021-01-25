@@ -6,7 +6,7 @@ set (ICC_CPU_VENDOR "ST")
 set (ICC_CPU_MODEL "stm32f429xI")
 set (ICC_CPU_FLAGS "--cpu Cortex-M4 --fpu VFPv4_sp")
 set (ICC_CPU_LINKER "default")
-set (ICC_DLIB_CONFIG "normal")
+set (ICC_DLIB_CONFIG "full")
 set (ICC_DLIB_USE_SEMIHOSTING true)
 set (ICC_DLIB_USE_CMSIS true)
 set (ICC_OUTPUT_CONVERTER "hex,srec")
@@ -40,6 +40,18 @@ set (ICC_INCLUDE_PATHS
 include_directories(${ICC_INCLUDE_PATHS})
 
 set (ICC_C_SOURCES
+  lib-logic/arrayOutOfBounds.c
+  lib-logic/bufferOverflow.c
+  lib-logic/dbutil.c
+  lib-logic/divisionByZero.c
+  lib-logic/fileLeaks.c
+  lib-logic/integerOverflow.c
+  lib-logic/memoryLeaks.c
+  lib-logic/nullPointerDeref.c
+  lib-logic/nullPointerDerefBenchmark.c
+  lib-logic/sql.c
+  lib-logic/sqlInjection.c
+  lib-logic/unreachableCode.c
 	app/main.c
 	app/stm32f4xx_it.c
 	board/iar_stm32f429ii_aca.c

@@ -71,7 +71,7 @@ set (CMAKE_CXX_FLAGS_RELWITHDEBINFO "${CMAKE_CXX_FLAGS_RELWITHDEBINFO_INIT}" CAC
 
 # Set DLIB header
 #set (DLIB_CONFIG "--dlib_config ${ICC_PATH}/../inc/c/DLib_Config_${ICC_DLIB_CONFIG}.h")
-set (DLIB_CONFIG "--dlib_config normal")
+set (DLIB_CONFIG "--dlib_config full")
 
 # IAR C (and C++) Compiler 
 find_program (ICC_EXECUTABLE

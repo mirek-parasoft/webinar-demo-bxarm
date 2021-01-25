@@ -1,5 +1,5 @@
 {
-    "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module . -input build/compile_commands.json",
+    "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module lib-logic -input build/compile_commands.json",
     "cpptest.testConfiguration": "builtin://MISRA C 2012",
     "cmake.configureOnOpen": true
 }
