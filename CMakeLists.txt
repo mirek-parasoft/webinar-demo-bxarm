@@ -48,7 +48,6 @@ set (ICC_C_SOURCES
   lib-logic/integerOverflow.c
   lib-logic/memoryLeaks.c
   lib-logic/nullPointerDeref.c
-  lib-logic/nullPointerDerefBenchmark.c
   lib-logic/sql.c
   lib-logic/sqlInjection.c
   lib-logic/unreachableCode.c
