@@ -27,7 +27,7 @@
  * I-Jet JTAG/SWD interface.
  *
  * CONFIGURATION
- * =============
+ * ============= 
  * Flash Debug - The Progam is loaded to internal Flash.
  *
  *  Make sure that the following jumpers are correctly configured on
