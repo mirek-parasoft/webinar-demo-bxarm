@@ -46,7 +46,7 @@
 
 #define EFFECT0_SPEED         1
 
-static volatile uint32_t TimingDelay;
+static volatile uint32_t TimingDelay; 
 
 /* variable for critical section entry control */
 uint32_t CriticalSecCntr;
