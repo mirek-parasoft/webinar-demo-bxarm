@@ -9,7 +9,7 @@ void displayPersonalInfo(Person *person)
     printf("Day's pay: %d\n", person->salary/person->daysWorkedInPassedMonth);
 }
 
-Person* createNewPerson(char* name, int salary)
+Person* createNewPerson(char* name, int salary) 
 {
     Person* p = malloc(sizeof(Person));
     if (p == 0) exit(1);
