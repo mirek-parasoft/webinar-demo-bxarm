@@ -53,7 +53,7 @@ int main()
         return 1;
     }
     numberOfEmployees = processFile(file, employees);
-    if (numberOfEmployees != 0) []
+    if (numberOfEmployees != 0) {
      processStaff(employees, numberOfEmployees);
     }
      fclose(file);
