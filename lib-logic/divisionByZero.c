@@ -6,7 +6,7 @@ void displayPersonalInfo(Person *person)
 {
     printf("Name: %s\n", person->name);
     printf("Salary: %d\n", person->salary);
-    if (person->daysWorkedInPassedMonth != 0) {}
+    if (person->daysWorkedInPassedMonth != 0) {
         printf("Day's pay: %d\n", person->salary/person->daysWorkedInPassedMonth);
     }
 }
