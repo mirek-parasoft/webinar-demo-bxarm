@@ -175,5 +175,5 @@ uint8_t led_mask;
       else
         STM_LEDOff(i);
     }
-  }
+  } 
 } 
