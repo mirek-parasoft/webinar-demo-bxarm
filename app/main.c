@@ -30,9 +30,7 @@
  * =============
  * Flash Debug - The Progam is loaded to internal Flash.
  *
- *  Make sure that the following jumpers are correctly configured on the
- * IAR-STM32F429II-ACA evaluation board:
- *
+ *  Make sure that the following jumpers are correctly configured on
  *  Jumpers:
  *   B0_1/B0_0 - B0_0
  *   B1_1/B1_0 - B1_0
@@ -46,7 +44,7 @@
 
 #define EFFECT0_SPEED         1
 
-static volatile uint32_t TimingDelay; 
+static volatile uint32_t TimingDelay;  
 
 /* variable for critical section entry control */
 uint32_t CriticalSecCntr;
