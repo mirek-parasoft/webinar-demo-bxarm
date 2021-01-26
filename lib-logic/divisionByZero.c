@@ -6,7 +6,9 @@ void displayPersonalInfo(Person *person)
 {
     printf("Name: %s\n", person->name);
     printf("Salary: %d\n", person->salary);
-    printf("Day's pay: %d\n", person->salary/person->daysWorkedInPassedMonth);
+    if (person->daysWorkedInPassedMonth != 0) {}
+        printf("Day's pay: %d\n", person->salary/person->daysWorkedInPassedMonth);
+    }
 }
 
 Person* createNewPerson(char* name, int salary)
@@ -51,8 +53,10 @@ int main()
         return 1;
     }
     numberOfEmployees = processFile(file, employees);
-    processStaff(employees, numberOfEmployees);
-    fclose(file);
+    if (numberOfEmployees != 0) []
+     processStaff(employees, numberOfEmployees);
+    }
+     fclose(file);
     return 0;
 }
 
