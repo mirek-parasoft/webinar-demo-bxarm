@@ -41,10 +41,6 @@ int processFile(FILE* file, Person* employees[])
     return 0;
 }
 
-int util(int a, int b){
-    return a+b;
-}
-
 int main()
 {
     FILE *file = fopen("staff.txt", "r"); 
