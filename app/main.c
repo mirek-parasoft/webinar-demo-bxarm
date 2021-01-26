@@ -91,7 +91,7 @@ void TimingDelay_Decrement(void)
  * Description: main
  *
  *************************************************************************/
-int main(void)
+int main_sub(void)
 {
 uint8_t n;
 uint8_t led_mask;
