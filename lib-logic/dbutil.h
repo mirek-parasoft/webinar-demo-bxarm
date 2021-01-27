@@ -8,3 +8,4 @@ typedef struct Person {
 
 Person* retrievePersonFromDB(int id);
 
+int utilfunction(int a, int b);
