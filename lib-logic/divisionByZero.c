@@ -56,3 +56,6 @@ int main()
     return 0;
 }
 
+int util_fun(int a, int b) {
+    return a+b;
+}
