@@ -19,7 +19,7 @@ void fillBuffer()
     /* } */  
    
     memset(buffer, character, size); /* POSSIBLE BUFFER OVERFLOW HERE */
-}
+} 
 
 void resetBuffer(int size)
 {
