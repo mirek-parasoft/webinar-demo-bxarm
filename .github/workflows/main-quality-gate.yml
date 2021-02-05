@@ -40,7 +40,7 @@ jobs:
 
     - name: test
       run: |
-        cpptestcli -settings cpptest.pipeline.properties -exclude cpptest.excludes.lst -module lib-logic -input ${{github.workspace}}/build/compile_commands.json
+        cpptestcli -settings cpptest.pipeline.properties -exclude cpptest.excludes.lst -fail -module lib-logic -input ${{github.workspace}}/build/compile_commands.json
     - name: report
       uses: github/codeql-action/upload-sarif@v1
       with:
