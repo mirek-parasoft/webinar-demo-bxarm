@@ -7,7 +7,7 @@
  * detects leaks of file descriptors.
  */
 
-void printFile(FILE* file)
+void printFile(FILE* file) 
 {
     char c;
     printf("Reading file contents:\n\n");
