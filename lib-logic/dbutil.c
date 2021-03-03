@@ -5,7 +5,7 @@
 Person* retrievePersonFromDB(int id)
 {
     Person* p;
-    int MIN_ID = 1;
+    int MIN_ID = 1; 
     if (id < MIN_ID) {
         return NULL;
     }
