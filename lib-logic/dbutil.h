@@ -8,3 +8,4 @@ typedef struct Person {
 
 Person* retrievePersonFromDB(int id);
 
+int dummy(int a, int b);
