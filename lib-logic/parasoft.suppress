@@ -1,0 +1,23 @@
+# Define suppressions to prevent reporting of selected rule violations
+# detected by Parasoft static analysis.
+# Note: One suppression entry can affect more than one violation.
+#
+# Example:
+#
+# suppression-begin
+# file: file.ext               (required)
+# line: 12                     (optional)
+# rule-id: BD-PB-VOVR          (optional)
+# message: Avoid unused values (optional)
+# reason: Approved             (optional)
+# author: devel                (optional)
+# date: 2020-09-21             (optional)
+# suppression-end
+
+suppression-begin
+file: divisionByZero.c
+rule-id: MISRAC2012-RULE_15_5-a
+message: Provide only one exit point in 'dummy' function
+reason: Acceptable based on Permit XXXX
+author: ciuser
+suppression-end
